@@ -82,6 +82,11 @@
 		padding-left: 2px;
 		background: var(--gradient-pink, #e30036);
     	border: 2px solid var(--pink, #ff5471);
+		color: var(--white, #fff);
+		outline: none;
+		&:focus {
+			outline: none;
+		}
 		&:hover {
 			cursor: pointer;
 		}

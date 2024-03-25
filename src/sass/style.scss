@@ -14,6 +14,10 @@
         list-style-type: none;
     }
 }
+*::-webkit-media-controls-start-playback-button {
+    display: none!important;
+    -webkit-appearance: none;
+}
 
 .container {
     width: 1170px;
