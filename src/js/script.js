@@ -64,20 +64,21 @@ video.addEventListener("ended", () => {
 
 // const video = document.querySelector(".video__content");
 // const button = document.querySelector(".video__button");
+// const image = document.getElementById("btn_img");
+
 // function togglePlay() {
 // 	if (video.paused || video.ended) {
 // 		video.play();
+// 		image.src = 'icons/pause.svg';
+// 		image.alt = 'pause';
 // 	} else {
 // 		video.pause();
+// 		image.src = 'icons/play.svg';
+// 		image.alt = 'play';
 // 	}
-// }
-// function updatebutton() {
-// 	button.innerHTML = video.paused ? "▶" : "❚❚";
 // }
 // button.addEventListener("click", togglePlay);
 // video.addEventListener("click", togglePlay);
-// video.addEventListener("play", updatebutton);
-// video.addEventListener("pause", updatebutton);
 
 // video.addEventListener("mouseover", () => {
 // 	button.style.opacity = "1";
@@ -85,7 +86,6 @@ video.addEventListener("ended", () => {
 // button.addEventListener("mouseover", () => {
 // 	button.style.opacity = "1";
 // });
-
 // video.addEventListener("mouseout", () => {
 // 	if (!video.paused) {
 // 		button.style.opacity = "0";
