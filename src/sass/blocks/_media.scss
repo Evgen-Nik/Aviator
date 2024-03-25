@@ -1,0 +1,197 @@
+@media (max-width: 1248px) {
+    .container {
+        max-width: 960px;
+    }
+    .promo {
+        &__logo {
+            top: 40px;
+            width: 65.29px;
+            height: 50px;
+        }
+        &__wrapper {
+            padding-top: 140px;
+            padding-bottom: 100px;
+        }
+        #coin-1 {
+            left: 1043px;
+        }
+        #coin-2 {
+            top: 110px;
+            left: -174px;
+        }
+        #coin-3 {
+            top: 580px;
+            left: 553px;
+        }
+        #coin-4 {
+            top: 578px;
+            left: 71px;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    .promo {
+        &__wrapper {
+            padding-bottom: 148px;
+        }
+        #coin-1 {
+            left: 767px;
+        }
+        #coin-2 {
+            top: 90px;
+            left: -151px;
+        }
+        #coin-3 {
+            top: 660px;
+            left: 397px;
+        }
+        #coin-4 {
+            top: 637px;
+            left: -64px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .promo {
+        background-position: right bottom;
+        &__wrapper {
+            padding-top: 140px;
+            padding-bottom: 100px;
+            min-height: 480px;
+            flex-direction: column;
+            gap: 52px;
+            justify-content: center;
+            align-items: center;
+        }
+        #coin-1 {
+            top: 311px;
+            left: 583px;
+        }
+        #coin-2 {
+            left: -145px;
+        }
+        #coin-3 {
+            top: 840px;
+            left: 472px;
+        }
+        #coin-4 {
+            top: 827px;
+            left: -68px;
+        }
+    }
+    .video {
+        margin: 0;
+    }
+    .steps {
+        width: 100%;
+        &__list {
+            counter-reset: custom-counter;
+            padding-left: 0;
+        }
+        &__item {
+            padding-top: 2px;
+		    padding-left: 36px;
+            margin-left: 50px;
+            margin-right: 50px;
+            min-height: 24px;
+            margin-bottom: 12px;
+            font-size: 16px;
+            line-height: 20px;
+            &:before {
+                font-size: 14px;
+                width: 22px;
+                height: 22px;
+                line-height: 22px;
+            }
+        }
+    }
+    .btn {
+        margin: 0 auto;
+        margin-top: 36px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+    .promo {
+        background-position: 91% bottom;
+        &__logo {
+            top: 20px;
+        }
+        &__wrapper {
+            padding-top: 100px;
+            padding-bottom: 78px;
+            gap: 30px;
+        }
+        #coin-1 {
+            width: 72px;
+            height: 52px;
+            top: 283px;
+            left: 457px;
+        }
+        #coin-2 {
+            width: 97px;
+            height: 57px;
+            top: 95px;
+            left: -31px;
+        }
+        #coin-3 {
+            width: 77px;
+            height: 83px;
+            top: 732px;
+            left: 388px;
+        }
+        #coin-4 {
+            width: 60px;
+            height: 60px;
+            top: 726px;
+            left: 63px;
+        }
+    }
+    .video {
+        width: 190.52px;
+        height: 400px;
+        &__progress {
+            bottom: 36px;
+            width: 92%;
+            left: 4%;
+            height: 5px;
+        }
+    }
+    .steps {
+        width: 100%;
+        &__list {
+            counter-reset: custom-counter;
+            padding-left: 0;
+        }
+        &__item {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    }
+    .btn {
+        margin-top: 24px;
+    }
+}
+
+@media (max-width: 360px) {
+    .promo {
+        #coin-1 {
+            left: 327px;
+        }
+        #coin-3 {
+            left: 298px;
+        }
+    }
+}
